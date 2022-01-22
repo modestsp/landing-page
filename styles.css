@@ -1,0 +1,141 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    display:flex;
+    flex-direction: column;
+    font-family: 'Roboto', 'sans-serif';
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin: ;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.header{
+    background-color: #1f2937;
+    padding: 20px 100px 50px 100px;
+}
+.headertext{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+#headerlogo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+#headerbutton{
+    width: 100px;
+    height:30px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 900;
+    border-radius: 10px;
+    border: none;
+}
+.header-body-left{
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+}
+.header-links{
+    display:flex;
+    justify-content: space-between;
+
+}
+.header-body{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+}
+
+.text-button{
+    height: 100px;
+    width:  100px;
+    border-radius: 10px;
+    background-color: white;
+    border-color: #3882F6;
+}
+.imgplace{
+    display: flex;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+.body2{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+.body1{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    margin-top: 20px;
+    margin-bottom:0px;
+}
+
+.body-images{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: baseline;
+}
+.body2 h3{
+ display: flex;
+ justify-content: flex-end;
+ font-weight: 700;
+ font-size: 20px;
+}
+.signup{
+    display: flex;
+    justify-content: space-between;  
+    background-color: #3882F6;
+    margin: 100px;
+    padding: 50px;
+    align-items: center;
+    color: #F9FAF8;;
+    border-radius: 10px;
+}
+
+.quote{
+    font-size: 36px;
+    color: #1f2937;
+}
+#footerbutton{
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid #F9FAF8;;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.footer{
+    display: flex;
+    flex:1;
+    background-color: #1f2937;
+    justify-content: center;
+    color: #F9FAF8;
+    padding: 25px;
+}
